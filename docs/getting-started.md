@@ -22,7 +22,7 @@ By the end of this guide, you will have the HTTPie Command Line Interface (CLI) 
 
 Select your operating system below to see the specific commands.
 
-<Tabs>
+
   <TabItem value="mac" label="macOS" default>
 
 We recommend using **Homebrew** for the easiest maintenance.
@@ -53,7 +53,6 @@ You can install HTTPie via **Winget**, **Scoop**, or **Chocolatey**.
     ```
 
   </TabItem>
-  
 
 HTTPie is available in most package managers.
 
