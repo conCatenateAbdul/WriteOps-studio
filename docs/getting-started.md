@@ -22,6 +22,7 @@ By the end of this guide, you will have the HTTPie Command Line Interface (CLI) 
 
 Select your operating system below to see the specific commands.
 
+**macOS:**
 <Tabs>
   <TabItem value="mac" label="macOS" default>
 
@@ -36,7 +37,9 @@ We recommend using **Homebrew** for the easiest maintenance.
 
   </TabItem>
   <TabItem value="win" label="Windows">
-
+    
+**Windows:**
+    
 You can install HTTPie via **Winget**, **Scoop**, or **Chocolatey**.
 
 1.  Open PowerShell or Command Prompt.
@@ -63,3 +66,37 @@ curl -SsL [https://packages.httpie.io/deb/KEY.gpg](https://packages.httpie.io/de
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/httpie.gpg] [https://packages.httpie.io/deb](https://packages.httpie.io/deb) ./" | sudo tee /etc/apt/sources.list.d/httpie.list
 sudo apt update
 sudo apt install httpie
+```
+
+**Fedora/RHEL:**
+```bash
+sudo dnf install httpie
+```
+
+**Arch Linux:**
+```bash
+sudo pacman -S httpie
+```
+
+</TabItem> <TabItem value="python" label="Python (Universal)">
+
+
+If you have Python installed, you can use <code>pip</code> on any OS.
+
+```bash
+pip install httpie
+```
+
+</TabItem> </Tabs>
+
+## Verification
+Let’s make sure everything is working correctly
+
+1. Run the version command:
+
+```bash
+http --version
+```
+2. You should see an output similar to <code>3.2.2</code> (or the latest version).
+
+>  Troubleshooting If your terminal says `command not found`, try restarting your terminal session to refresh your system paths.
