@@ -49,7 +49,7 @@ Explore how to construct different types of requests below.
 <Tabs>
   <TabItem value="json" label="Sending JSON" default>
 
-### Sending Data
+**Sending Data**
 To send a JSON object, simply list the fields after the URL. HTTPie automatically sets the `Content-Type` header to `application/json`.
 
 **Command:**
