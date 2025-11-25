@@ -56,6 +56,7 @@ http POST httpbin.org/post name=Alice age:=30 isDeveloper:=true
 </TabItem> <TabItem value="headers" label="Custom Headers">
 
 **Setting Headers**
+
 To add authentication tokens or custom headers, use the colon `:` separator.
 
 **Command:**
