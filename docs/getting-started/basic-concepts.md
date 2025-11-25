@@ -16,7 +16,19 @@ You will learn how to map specific syntax symbols (`=`, `:`, `==`) to HTTP conce
 
 
 
-[Image of JSON data structure]
+```mermaid
+graph LR;
+    A[Command Line] -->|field=value| B(JSON String);
+    A -->|field:=value| C(JSON Raw/Bool/Int);
+    A -->|Header:Value| D(HTTP Header);
+    A -->|param==value| E(URL Query Param);
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#ccf,stroke:#333
+    style C fill:#ccf,stroke:#333
+    style D fill:#cfc,stroke:#333
+    style E fill:#fcc,stroke:#333
+```
 
 
 ## The Syntax Mapping
@@ -94,13 +106,15 @@ If you develop locally, typing localhost gets repetitive. HTTPie supports shorth
 </ul>
 
 ### Summary
-You now possess the core syntax logic:
-<ol>
-  <li><code>=</code> for text data.</li>
-  <li>:<code>=</code> for non-string data (numbers, booleans).</li>
-  <li><code>:</code> for Headers.</li>
-  <li><code>==</code> for URL query strings.</li>
-</ol>
 
-> [!Note]
-Next Steps Now that you understand the basics, check out our Guides section to see how to handle file uploads and sessions!
+You now possess the core syntax logic:
+
+1.  `=` for text data.
+2.  `:=` for non-string data (numbers, booleans).
+3.  `:` for Headers.
+4.  `==` for URL query strings.
+
+> [!TIP]
+> **Next Steps**
+>
+> Now that you understand the basics, check out our Guides section to see how to handle file uploads and sessions!
