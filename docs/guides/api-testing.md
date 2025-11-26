@@ -33,11 +33,9 @@ http --check-status GET httpbin.org/status/200
 ```
 
 **Result:**
-<ul>
-  <li>Output: Shows the HTTP 200 response.</li>
-  <li>Exit Code: <code>0</code> (Success).</li>
-  <li>Pipeline: Continues to the next step. </li>
-</ul>
+*   Output: Shows the HTTP 200 response.
+*   Exit Code: `0` (Success).
+*   Pipeline: Continues to the next step.
 
 </TabItem> <TabItem value="fail" label="Scenario: Failure">
 
@@ -46,12 +44,11 @@ http --check-status GET httpbin.org/status/200
 http --check-status GET httpbin.org/status/404
 ```
 **Result**
-<ul>
-  <li>Output: Shows the HTTP 404 response.</li>
-  <li>Console <code>Error: http: error: 404 Not Found</code></li>
-  <li>Exit Code: <code>4</code> (<a href="/docs/Troubleshooting/error-codes">See Error Codes</a>) </li>
-  <li>Pipeline: Stops immediately.</li>
-</ul>
+*   Output: Shows the HTTP 404 response.
+*   Console `Error: http: error: 404 Not Found`
+*   Exit Code: `4` ([See Error Codes](/docs/Troubleshooting/error-codes))
+*   Pipeline: Stops immediately.
+
   </TabItem>
 </Tabs>
 
@@ -77,7 +74,5 @@ fi
 ```
 
 **Explanation**
-<ul>
-  <li><code>--check-status:</code> Transforms HTTP errors into System errors.</li>
-  <li><code>-b</code> / <code>--body:</code> Outputs only the JSON payload, making it easier for tools like <code>grep</code> or <code>jq</code> to parse.</li>
-</ul>
+*   `--check-status`: Transforms HTTP errors into System errors.
+*   `-b` / `--body`: Outputs only the JSON payload, making it easier for tools like `grep` or `jq` to parse.
