@@ -49,7 +49,7 @@ http --check-status GET httpbin.org/status/404
 <ul>
   <li>Output: Shows the HTTP 404 response.</li>
   <li>Console <code>Error: http: error: 404 Not Found</code></li>
-  <li>Exit Code: <code>4</code> [(See Error Codes)] (https://github.com/conCatenateAbdul/httpie-d/docs/guides/troubleshooting)</li>
+  <li>Exit Code: <code>4</code> (<a href="/docs/Troubleshooting/error-codes">See Error Codes</a>) </li>
   <li>Pipeline: Stops immediately.</li>
 </ul>
   </TabItem>
