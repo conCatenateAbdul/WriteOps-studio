@@ -109,8 +109,9 @@ Let’s make sure everything is working correctly.
 
 2.  You should see an output similar to `3.2.2` (or the latest version).
 
-    > [!TIP]
-    > **Success!** If you see the version number, you are ready to go.
+   :::tip Success!
+    If you see the version number, you are ready to go.
+    :::
 
 :::warning Troubleshooting
 If your terminal says `command not found`:
