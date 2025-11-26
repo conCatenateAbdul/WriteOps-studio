@@ -112,13 +112,11 @@ Let’s make sure everything is working correctly.
     > [!TIP]
     > **Success!** If you see the version number, you are ready to go.
 
-> [!WARNING]
-> **Troubleshooting**
->
-> If your terminal says `command not found`:
-> 1.  Restart your terminal session to refresh your system paths.
-> 2.  Ensure the installation directory is in your system's `PATH`.
-
+:::warning Troubleshooting
+If your terminal says `command not found`:
+1.  Restart your terminal session to refresh your system paths.
+2.  Ensure the installation directory is in your system's `PATH`.
+:::
 ## Next Steps
 
 Now that you're set up, let's send your first request!
