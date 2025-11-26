@@ -39,11 +39,11 @@ We will query the GitHub API. It is public, fast, and returns nice JSON data.
 
 Copy and paste this command into your terminal:
 
-> [!TIP]
-> **Try it!**
-> ```bash
-> http https://api.github.com/zen
-> ```
+:::tip Try it!
+```bash
+http https://api.github.com/zen
+```
+:::
 ### Step 2: Analyze the Output
 
 You should see two distinct sections in your terminal:
@@ -62,8 +62,9 @@ Date: Mon, 24 Nov 2025 12:00:00 GMT
 Avoid administrative distraction.
 ```
 
-> [!Note]
-Shorthand Syntax HTTPie is smart. You don't always need to type `https://`. If you run `http api.github.com/zen`, it defaults to `http`. For secure requests, explicitly type https
+:::note Shorthand Syntax
+HTTPie is smart. You don't always need to type `https://`. If you run `http api.github.com/zen`, it defaults to `http`. For secure requests, explicitly type https
+:::
 
 ### Why this matters
 
