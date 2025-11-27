@@ -76,3 +76,11 @@ fi
 **Explanation**
 *   `--check-status`: Transforms HTTP errors into System errors.
 *   `-b` / `--body`: Outputs only the JSON payload, making it easier for tools like `grep` or `jq` to parse.
+
+<div style={{textAlign: 'center', marginTop: '2rem'}}>
+  <Link
+    className="button button--primary button--lg"
+    to="/docs/guides/authentication">
+    Next: Authentication Strategies →
+  </Link>
+</div>
