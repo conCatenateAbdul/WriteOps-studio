@@ -6,6 +6,7 @@ description: Use HTTPie in scripts and CI/CD pipelines to verify API health.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import Link from '@docusaurus/Link';
 
 # API Testing & Scripting
 
@@ -76,11 +77,3 @@ fi
 **Explanation**
 *   `--check-status`: Transforms HTTP errors into System errors.
 *   `-b` / `--body`: Outputs only the JSON payload, making it easier for tools like `grep` or `jq` to parse.
-
-<div style={{textAlign: 'center', marginTop: '2rem'}}>
-  <Link
-    className="button button--primary button--lg"
-    to="/docs/guides/authentication">
-    Next: Authentication Strategies →
-  </Link>
-</div>
