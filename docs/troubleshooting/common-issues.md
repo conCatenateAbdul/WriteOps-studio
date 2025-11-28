@@ -23,21 +23,20 @@ sequenceDiagram
     participant C as Client (HTTPie)
     participant S as Server
 
-    Note over C,S: 1. Connection Establishment
-    C->>S: Client(Hello) (TLS 1.2/1.3)
-    S-->>C: Server(Hello)
+    Note over C,S: 1. Hello Messages
+    C->>S: ClientHello
+    S-->>C: ServerHello
 
     Note over C,S: 2. Certificate Exchange
     S-->>C: Server Certificate
 
-    alt Certificate Invalid
-        C->>C: Verification Failed
-        C-->>S: Close Connection
-    else Certificate Valid
-        C->>C: Trusted
+    alt Invalid Certificate
+        C->>S: Abort Connection
+    else Valid Certificate
+        C->>S: Continue
     end
 
-    Note over C,S: 3. Secure Session Established
+    Note over C,S: 3. Secure Session
     C->>S: Key Exchange
     C->>S: Encrypted Data
     S-->>C: Encrypted Data
