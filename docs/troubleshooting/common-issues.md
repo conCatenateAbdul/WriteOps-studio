@@ -14,8 +14,6 @@ Even the best tools encounter network hiccups. Here is how to resolve the most f
 ## Objective
 Diagnose and fix connectivity and SSL issues when using HTTPie.
 
-
-
 ## SSL Handshake Process
 Understanding where the connection fails can help you pinpoint the issue. Here is a simplified view of the SSL/TLS handshake:
 
@@ -64,5 +62,47 @@ http --verify=no GET [https://internal-api.local](https://internal-api.local)
 
 Warning: Only use this for trusted local networks.
 
-</Tabs> 
-    <TabItem value="ss1" label="SSL/TLS Errors">
+  </TabItem>
+  <TabItem value="timeout" label="⏱️ Timeouts">
+
+### Connection Timeout
+
+:::danger Error
+`requests.exceptions.ConnectTimeout: HTTPSConnectionPool(...) Read timed out.`
+:::
+
+**Cause:**
+The server is taking too long to respond, or a firewall is blocking the connection.
+
+**Solution:**
+Increase the default timeout limit (usually 30s) to allow for slower responses.
+
+```bash
+# Set timeout to 60 seconds
+http --timeout=60 GET https://slow-api.example.com
+```
+
+  </TabItem>
+  <TabItem value="refused" label="🚫 Connection Refused">
+
+### Connection Refused
+
+:::danger Error
+`requests.exceptions.ConnectionError: [Errno 111] Connection refused`
+:::
+
+**Cause:**
+*   The server is **down**.
+*   You are connecting to the **wrong port**.
+*   The application is not listening on `localhost`.
+
+**Solution:**
+Check if the service is running and listening on the expected port.
+
+```bash
+# Check if port 8000 is open
+http GET localhost:8000
+```
+
+  </TabItem>
+</Tabs>
