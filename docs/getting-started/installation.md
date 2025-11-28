@@ -36,8 +36,7 @@ Select your operating system below to see the specific commands.
 <Tabs>
   <TabItem value="mac" label="macOS" default>
 
-We recommend using **Homebrew** for the easiest maintenance.
-
+Use Homebrew for the easiest maintenance.
 1.  Open your terminal.
 2.  Run the installation command:
     ```bash
