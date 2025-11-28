@@ -24,8 +24,8 @@ sequenceDiagram
     participant S as Server
 
     Note over C,S: 1. Connection Establishment
-    C->>S: ClientHello (TLS 1.2/1.3)
-    S-->>C: ServerHello
+    C->>S: Client(Hello) (TLS 1.2/1.3)
+    S-->>C: Server(Hello)
 
     Note over C,S: 2. Certificate Exchange
     S-->>C: Server Certificate
