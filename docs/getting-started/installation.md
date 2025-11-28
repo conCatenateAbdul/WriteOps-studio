@@ -113,9 +113,10 @@ Let’s make sure everything is working correctly.
     :::
 
 :::warning Troubleshooting
-If your terminal says `command not found`:
+If your terminal prints `command not found`:
 1.  Restart your terminal session to refresh your system paths.
 2.  Ensure the installation directory is in your system's `PATH`.
+3.  Reinstall with `pipx install httpie` (recommended) or your OS package manager.
 :::
 ## Next Steps
 
