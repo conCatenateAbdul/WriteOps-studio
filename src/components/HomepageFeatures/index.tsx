@@ -29,7 +29,6 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
-],
   {
     title: 'Cybersecurity',
     Svg: require('@site/static/img/cybersecurity.png').default,
