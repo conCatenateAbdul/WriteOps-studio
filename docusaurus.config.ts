@@ -122,7 +122,7 @@ const config: Config = {
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/concatenateabdul',
+              href: 'https://twitter.com/WriteOps_Studio',
             },
           ],
         },
