@@ -35,3 +35,13 @@ URIs **MUST** identify a resource (a noun), not an action (a verb). The HTTP Met
 GET /articles
 DELETE /articles/{id}
 POST /users
+```
+</TabItem> <TabItem value="bad" label="❌ Avoid This">
+
+```HTTP
+GET /getArticles
+GET /getAllUsers
+POST /createUser
+```
+
+Why? `/articles` is the "thing." `GET` is what you are doing to it. </TabItem> </Tabs>
