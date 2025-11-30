@@ -115,7 +115,7 @@ const config: Config = {
           items: [
             {
               label: 'Introduction',
-              to: '/docs/httpie/intro',
+              to: '/docs/HTTPie/intro',
             },
           ],
         },
