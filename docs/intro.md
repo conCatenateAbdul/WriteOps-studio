@@ -18,7 +18,7 @@ title: Welcome to HTTPie
 
 ## Getting Started quickly
 
-If you are new here, start with the **[Installation](./getting-started/installation.md)** guide.
+If you are new here, start with the **[Installation](./Getting-started/installation.md)** guide.
 
 If you are a veteran looking for flags, jump to the **[Command Line Options](./reference/command-line-options.md)** reference.
 
