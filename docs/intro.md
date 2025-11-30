@@ -20,7 +20,7 @@ title: Welcome to HTTPie
 
 If you are new here, start with the **[Installation](./Getting-started/installation.md)** guide.
 
-If you are a veteran looking for flags, jump to the **[Command Line Options](./reference/command-line-options.md)** reference.
+If you are a veteran looking for flags, jump to the **[Command Line Options](./Reference/command-line-options.md)** reference.
 
 ## Interactive Guide structure
 This documentation is organized into three sections:
