@@ -1,19 +1,44 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+introduction:
+  label: Introduction
+  permalink: /blog/tags/introduction
+  description: Introduction posts
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+bio:
+  label: Bio
+  permalink: /blog/tags/bio
+  description: Biography posts
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+tech:
+  label: Tech
+  permalink: /blog/tags/tech
+  description: Technology related posts
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+software-development:
+  label: Software Development
+  permalink: /blog/tags/software-development
+  description: Posts about software development
+
+coding:
+  label: Coding
+  permalink: /blog/tags/coding
+  description: Posts about coding
+
+best-practices:
+  label: Best Practices
+  permalink: /blog/tags/best-practices
+  description: Best practices in tech
+
+cybersecurity:
+  label: Cybersecurity
+  permalink: /blog/tags/cybersecurity
+  description: Cybersecurity posts
+
+security:
+  label: Security
+  permalink: /blog/tags/security
+  description: Security related posts
+
+trends:
+  label: Trends
+  permalink: /blog/tags/trends
+  description: Latest trends in tech
