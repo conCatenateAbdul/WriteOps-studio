@@ -44,4 +44,22 @@ GET /getAllUsers
 POST /createUser
 ```
 
-Why? `/articles` is the "thing." `GET` is what you are doing to it. </TabItem> </Tabs>
+Why? `/articles` is the "thing." `GET` is what you are doing to it.
+
+</TabItem> </Tabs>
+
+**3. Pluralization**
+Top-level resources SHOULD always be plural. This implies the API is a collection of resources.
+<ul>
+  <li><strong>Correct:</strong> <code>/users</code>, <code>/users/123</code></li>
+  <li><strong>Incorrect:</strong> <code>/user</code>, <code>/user/123</code></li>
+</ul>
+
+**4. Nesting Limits**
+Limit nesting to **two levels** of depth. Deep nesting creates complex URLs that are hard to maintain.
+
+**Acceptable:** `/users/{id}/orders` (Orders belonging to a user)
+
+**Too Deep:** `/users/{id}/orders/{order_id}/items/{item_id}`
+
+**Better approach:** Once you have the ID of the child, access it directly at the root: `/orders/{order_id}/items`
