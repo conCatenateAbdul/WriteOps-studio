@@ -27,7 +27,7 @@ sequenceDiagram
 
 
 ## Prerequisites
-* [Installation](./installation) is complete.
+* [Installation](../installation) is complete.
 * Internet connection.
 
 ## The "Hello World" of HTTPie
