@@ -115,7 +115,7 @@ const config: Config = {
           items: [
             {
               label: 'Introduction',
-              to: '/blog/2025-11-29-introduction',
+              to: '/blog/introduction',
             },
           ],
         },
