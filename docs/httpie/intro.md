@@ -1,7 +1,6 @@
 ---
 sidebar_position: 1
 id: httpie-intro
-slug: /docs/httpie/intro
 title: Welcome to HTTPie
 ---
 
