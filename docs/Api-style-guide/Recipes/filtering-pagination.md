@@ -50,4 +50,4 @@ Use direct query parameters matching the field names.
 
   - `price[gte]=100` (Greater than or equal)
 
-  - `status[in]=active,pending`
+  - `status[in]=active,pending` 
