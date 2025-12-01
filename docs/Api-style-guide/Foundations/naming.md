@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 Great APIs read like a sentence. The structure of the URL tells the developer exactly what resource they are accessing.
 
-## 1. Casing Strategy
+### 1. Casing Strategy
 We use specific casing styles to distinguish between URLs, JSON, and Headers.
 
 | Context | Style | Example |
@@ -25,7 +25,7 @@ We use specific casing styles to distinguish between URLs, JSON, and Headers.
 While JavaScript uses `camelCase`, `snake_case` is the standard for JSON APIs across the industry (Stripe, Slack, Google). It improves readability and aligns with database column standards.
 :::
 
-## 2. Resources are Nouns
+### 2. Resources are Nouns
 URIs **MUST** identify a resource (a noun), not an action (a verb). The HTTP Method (GET, POST) defines the action.
 
 <Tabs>
@@ -48,18 +48,18 @@ Why? `/articles` is the "thing." `GET` is what you are doing to it.
 
 </TabItem> </Tabs>
 
-**3. Pluralization**
+### 3. Pluralization
 Top-level resources SHOULD always be plural. This implies the API is a collection of resources.
 <ul>
   <li><strong>Correct:</strong> <code>/users</code>, <code>/users/123</code></li>
   <li><strong>Incorrect:</strong> <code>/user</code>, <code>/user/123</code></li>
 </ul>
 
-**4. Nesting Limits**
+### 4. Nesting Limits
 Limit nesting to **two levels** of depth. Deep nesting creates complex URLs that are hard to maintain.
 
-**Acceptable:** `/users/{id}/orders` (Orders belonging to a user)
-
-**Too Deep:** `/users/{id}/orders/{order_id}/items/{item_id}`
-
-**Better approach:** Once you have the ID of the child, access it directly at the root: `/orders/{order_id}/items`
+<ul>
+<li><strong>Acceptable:</strong> <code>/users/{id}/orders</code> (Orders belonging to a user)</li> 
+<li>  <strong>Too Deep:</strong> <code>/users/{id}/orders/{order_id}/items/{item_id}</code></li>
+<li><strong>Better approach:</strong> Once you have the ID of the child, access it directly at the root: <code>/orders/{order_id}/items</code></li>
+</ul>
