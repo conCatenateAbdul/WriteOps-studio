@@ -58,8 +58,6 @@ Top-level resources SHOULD always be plural. This implies the API is a collectio
 ### 4. Nesting Limits
 Limit nesting to **two levels** of depth. Deep nesting creates complex URLs that are hard to maintain.
 
-<ul>
-<li><strong>Acceptable:</strong> <code>/users/{id}/orders</code> (Orders belonging to a user)</li> 
-<li>  <strong>Too Deep:</strong> <code>/users/{id}/orders/{order_id}/items/{item_id}</code></li>
-<li><strong>Better approach:</strong> Once you have the ID of the child, access it directly at the root: <code>/orders/{order_id}/items</code></li>
-</ul>
+- **Acceptable:** `/users/{id}/orders` (Orders belonging to a user)
+- **Too Deep:** `/users/{id}/orders/{order_id}/items/{item_id}`
+- **Better approach:** Once you have the ID of the child, access it directly at the root: `/orders/{order_id}/items`
