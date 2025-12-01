@@ -81,9 +81,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'conCatenateAbdul',
+      title: 'WriteOps-Studio',
       logo: {
-        alt: 'conCatenateAbdul Logo',
+        alt: 'WriteOps-Studio Logo',
         src: 'img/logo.png',
       },
       items: [
@@ -146,7 +146,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} conCatenateAbdul. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} WriteOps-Studio.`,
     },
     prism: {
       theme: prismThemes.github,
