@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'conCatenateAbdul',
+  title: 'WriteOps-Studio',
   tagline: 'Technical Writer | IT Support Specialist | Cybersecurity Analyst',
   favicon: 'img/favicon.ico',
 
