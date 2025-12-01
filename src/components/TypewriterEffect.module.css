@@ -5,7 +5,7 @@
 }
 
 .gradientText {
-  background: linear-gradient(90deg, #ffff, #36454F); /* Example cool colors */
+  background: linear-gradient(90deg, #36454F,  #ffff); /* Example cool colors */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
