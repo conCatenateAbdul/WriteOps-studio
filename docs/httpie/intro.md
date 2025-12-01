@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-id: httpie-intro
+id: intro
 title: Welcome to HTTPie
 ---
 
