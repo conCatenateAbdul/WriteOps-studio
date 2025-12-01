@@ -5,6 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
+import TypewriterEffect from '@site/src/components/TypewriterEffect';
 
 import styles from './index.module.css';
 
@@ -16,7 +17,9 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className="hero__subtitle">
+          <TypewriterEffect text={siteConfig.tagline} />
+        </div>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -34,7 +37,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`WriteOps-Studio ${siteConfig.title}`}
-      description="Technical Writing <head />">
+      description="Technial Writing Expert <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
