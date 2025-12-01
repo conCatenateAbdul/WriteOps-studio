@@ -111,10 +111,10 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Blogs',
           items: [
             {
-              label: 'Introduction',
+              label: 'About Me',
               to: '/blog/introduction',
             },
           ],
