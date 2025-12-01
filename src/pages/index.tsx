@@ -36,8 +36,8 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`WriteOps-Studio ${siteConfig.title}`}
-      description="Technial Writing Expert <head />">
+      title={`Welcome ${siteConfig.title}`}
+      description="Technial Writing Expert">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
