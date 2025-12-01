@@ -27,7 +27,7 @@ sequenceDiagram
 
 
 ## Prerequisites
-* [Installation](/docs/Getting-started/installation) is complete.
+* [Installation](/docs/httpie/Getting-started/installation) is complete.
 * Internet connection.
 
 ## The "Hello World" of HTTPie
