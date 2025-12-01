@@ -1,0 +1,29 @@
+.typewriterContainer {
+  font-weight: bold;
+  font-size: 1.2rem; /* Adjust as needed */
+  display: inline-block;
+}
+
+.gradientText {
+  background: linear-gradient(90deg, #ff00cc, #333399); /* Example cool colors */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.cursor {
+  display: inline-block;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+  color: var(--ifm-color-primary); /* Use theme primary color or specific color */
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
