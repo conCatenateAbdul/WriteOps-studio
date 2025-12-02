@@ -63,7 +63,7 @@ Avoid administrative distraction.
 ```
 
 :::note Shorthand Syntax
-HTTPie is smart. You don't always need to type `https://`. If you run `http api.github.com/zen`, it defaults to `http`. For secure requests, explicitly type https
+You can omit the protocol in most commands. When you run `http api.github.com/zen`, HTTPie automatically uses HTTPS. If you need an unencrypted request, include `http://` explicitly.
 :::
 
 ### Why this matters
