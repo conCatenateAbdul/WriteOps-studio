@@ -30,7 +30,19 @@ graph TD;
     B -- Linux --> E[Apt / Dnf / Pacman];
     B -- Any --> F[Python Pip];
 ```
+## Installation
 
+Install HTTPie on your operating system by following the instructions below.
+
+### Recommended installation for Python users
+
+We recommend using [`pipx`](https://pipxproject.github.io/pipx/) to install HTTPie. `pipx` creates an isolated environment for the CLI tool, preventing conflicts and keeping your system clean.
+
+```bash
+pipx install httpie
+```
+:::Note: If you use pip directly, HTTPie will install binaries into your user site packages, which may cause conflicts. Using pipx or your OS package manager is safer and preferred.
+:::
 Select your operating system below to see the specific commands.
 
 <Tabs>
