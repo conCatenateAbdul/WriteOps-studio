@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 id: intro
-title: Welcome to HTTPie
+title: Introduction to HTTPie
 ---
 
 # HTTPie Documentation
