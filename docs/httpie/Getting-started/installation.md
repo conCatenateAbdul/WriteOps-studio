@@ -41,7 +41,8 @@ We recommend using [`pipx`](https://pipxproject.github.io/pipx/) to install HTTP
 ```bash
 pipx install httpie
 ```
-:::note If you use pip directly, HTTPie will install binaries into your user site packages, which may cause conflicts. Using pipx or your OS package manager is safer and preferred.
+:::note
+If you use pip directly, HTTPie will install binaries into your user site packages, which may cause conflicts. Using pipx or your OS package manager is safer and preferred.
 :::
 Select your operating system below to see the specific commands.
 
@@ -97,7 +98,8 @@ sudo dnf install httpie
 sudo pacman -S httpie
 ```
 
-</TabItem> <TabItem value="python" label="Python (Universal)">
+</TabItem>
+<TabItem value="python" label="Python (Universal)">
 
 
 If you have Python installed, you can use <code>pip</code> on any OS.
@@ -106,7 +108,8 @@ If you have Python installed, you can use <code>pip</code> on any OS.
 pip install httpie
 ```
 
-</TabItem> </Tabs>
+</TabItem>
+</Tabs>
 
 ## Verification
 
@@ -120,9 +123,9 @@ Let’s make sure everything is working correctly.
 
 2.  You should see an output similar to `3.2.2` (or the latest version).
 
-   :::tip Success!
-    If you see the version number, you are ready to go.
-    :::
+:::tip Success!
+If you see the version number, you are ready to go.
+:::
 
 :::warning Troubleshooting
 If your terminal prints `command not found`:
