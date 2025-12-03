@@ -25,3 +25,11 @@ http --check-status GET google.com
 if [ $? -eq 4 ]; then
   echo "Server returned a 4xx or 5xx error!"
 fi
+```
+
+## See also
+
+
+- [HTTPie exit codes (official reference)](https://httpie.io/docs#exit-codes) — map HTTP statuses to CLI exit codes for CI scripts.
+- [Using exit codes in shell scripts — best practices](https://www.gnu.org/software/bash/manual/html_node/Exit-Status.html) — writing robust automation.
+- [Designing resilient CI checks](https://circleci.com/blog/how-to-fail-fast-and-fail-safe-in-ci/) — strategies for API-based CI tests.
