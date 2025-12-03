@@ -95,6 +95,6 @@ Follow these rules whenever you work with API keys, tokens, or passwords in exam
 
 ## See also
 
-- [OAuth 2.0 overview (oauth.net)](https://oauth.net/2/) — conceptual guide to OAuth flows used by many APIs.
-- [HTTP Authorization header — MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization) — header formats and security notes.
-- [Secrets management (OWASP cheatsheet)](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html) — secure storage and rotation practices.
+- *[OAuth 2.0 overview (oauth.net)](https://oauth.net/2/) — conceptual guide to OAuth flows used by many APIs.*
+- *[HTTP Authorization header — MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization) — header formats and security notes.*
+- *[Secrets management (OWASP cheatsheet)](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html) — secure storage and rotation practices.*
