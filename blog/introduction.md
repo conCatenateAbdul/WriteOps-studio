@@ -5,6 +5,7 @@ authors: [concatenateabdul]
 tags: [introduction, bio, tech]
 ---
 
+import { Callout, ProjectGrid, SkillBadge } from '../src/components';
 
 # From Code to Clarity: My Journey in Technical Writing
 
@@ -71,4 +72,3 @@ I believe documentation is a product in its own right. It requires user research
 **Let's connect if you're building something that needs clarity, precision, and user-focused documentation.**
 
 [View my portfolio projects](/projects) | [Contact me](/contact)
-```
