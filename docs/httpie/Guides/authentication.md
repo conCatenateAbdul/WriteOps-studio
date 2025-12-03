@@ -85,7 +85,7 @@ http api.example.com/profile
 
 Follow these rules whenever you work with API keys, tokens, or passwords in examples, scripts, and CI.
 
-### Key rules (short)
+### Key rules
 1. **Never hard-code secrets in docs, examples, or source files.**  
    Always use placeholders such as `<YOUR_TOKEN>` or `<PASSWORD>` in public docs.
 2. **Do not put secrets in URLs or query strings.** URLs are often logged or shared.
