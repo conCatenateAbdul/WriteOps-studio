@@ -80,3 +80,14 @@ http api.example.com/profile
 
 *   `-a` / `--auth`: The shorthand flag for Basic Auth.
 *   Header manipulation: For schemes like Bearer or API Keys (X-API-Key), simply setting the header is often the fastest method.
+
+## Security and best practices for secrets
+
+Follow these rules whenever you work with API keys, tokens, or passwords in examples, scripts, and CI.
+
+### Key rules (short)
+1. **Never hard-code secrets in docs, examples, or source files.**  
+   Always use placeholders such as `<YOUR_TOKEN>` or `<PASSWORD>` in public docs.
+2. **Do not put secrets in URLs or query strings.** URLs are often logged or shared.
+3. **Avoid inline passwords on the command line.** Use secure prompts or environment variables.
+4. **Store secrets with least privilege and rotate them regularly.**
