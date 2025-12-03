@@ -122,6 +122,6 @@ Now that you understand the basics, check out our Guides section to see how to h
 
 ## See also
 
-- [Form vs raw body HTTP (RFCs & examples)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST) — when to use multipart/form-data vs raw/JSON.
-- [Command-line quoting and shells](https://www.gnu.org/software/bash/manual/html_node/Quoting.html) — avoid quoting pitfalls across shells.
+- *[Form vs raw body HTTP (RFCs & examples)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST) — when to use multipart/form-data vs raw/JSON.*
+- *[Command-line quoting and shells](https://www.gnu.org/software/bash/manual/html_node/Quoting.html) — avoid quoting pitfalls across shells.*
 
