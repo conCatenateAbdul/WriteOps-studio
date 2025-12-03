@@ -1,10 +1,7 @@
 ---
-slug: introduction
 title: From Code to Clarity: My Journey in Technical Writing
 excerpt: I translate the silent language of technology into stories users not only understand but enjoy. This is my journey from solving puzzles to crafting clarity.
-tags: [introduction, bio, tech]
 authors: [concatenateabdul]
-date: '2024-11-18'
 ---
 
 The most elegant code is useless if it leaves its audience in the dark. I learned this not in a lecture hall, but in a moment of shared, silent frustration—watching a brilliant engineer struggle to explain his own creation. That was the pivot. My career is built on a simple, powerful belief: **documentation is the bridge between genius and its impact.** I don't just write instructions; I architect understanding.
