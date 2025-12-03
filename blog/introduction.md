@@ -5,7 +5,6 @@ authors: [concatenateabdul]
 tags: [introduction, bio, tech]
 ---
 
-import { Callout, ProjectGrid, SkillBadge } from '../src/components';
 
 # From Code to Clarity: My Journey in Technical Writing
 
