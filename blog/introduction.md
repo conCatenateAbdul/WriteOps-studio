@@ -1,4 +1,5 @@
 ---
+slug: introduction
 title: From Code to Clarity: My Journey in Technical Writing
 excerpt: How a passion for untangling complex systems evolved into a career of crafting clear, user-focused documentation.
 date: '2024-11-18'
