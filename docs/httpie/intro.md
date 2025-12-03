@@ -34,6 +34,6 @@ Let's make APIs fun again! 🚀
 
 ## See also
 
-- [HTTPie official docs — Overview](https://httpie.io/docs) — deeper reference and examples for advanced CLI usage.
-- [HTTPie plugins](https://httpie.io/docs/plugins) — extend HTTPie with custom auth and output handlers.
-- [curl vs HTTPie: a short comparison](https://curl.se/docs/faq.html#What_is_curl) — understand trade-offs when choosing a CLI client.
+- *[HTTPie official docs — Overview](https://httpie.io/docs) — deeper reference and examples for advanced CLI usage.*
+- *[HTTPie plugins](https://httpie.io/docs/plugins) — extend HTTPie with custom auth and output handlers.*
+- *[curl vs HTTPie: a short comparison](https://curl.se/docs/faq.html#What_is_curl) — understand trade-offs when choosing a CLI client.*
