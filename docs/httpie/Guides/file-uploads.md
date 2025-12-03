@@ -36,5 +36,5 @@ http POST httpbin.org/post @~/Documents/report.pdf
 
 ## See also
 
-- [Large file upload strategies](https://cloud.google.com/storage/docs/resumable-uploads) — resumable uploads and streaming approaches (cloud vendor guide).
-- [Content-Type header reference — MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type) — when to set explicit Content-Type for uploads.
+- *[Large file upload strategies](https://cloud.google.com/storage/docs/resumable-uploads) — resumable uploads and streaming approaches (cloud vendor guide).*
+- *[Content-Type header reference — MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type) — when to set explicit Content-Type for uploads.*
