@@ -81,3 +81,10 @@ HTTPie assumes you want to see the whole conversation (headers and body) formatt
 Ready to master the syntax?
 
 [👉 Basic Concepts](./basic-concepts)
+
+
+## See also
+
+- [HTTP status codes — MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) — understand response codes you’ll see.
+- [Rate limiting explained](https://developer.github.com/v3/#rate-limiting) — important when calling public APIs like GitHub.
+- [Practical JSON handling with `jq`](https://stedolan.github.io/jq/) — robust JSON parsing for shell scripts.
