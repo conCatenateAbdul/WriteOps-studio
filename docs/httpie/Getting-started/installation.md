@@ -42,7 +42,7 @@ We recommend using [`pipx`](https://pipxproject.github.io/pipx/) to install HTTP
 pipx install httpie
 ```
 :::note
-If you use pip directly, HTTPie will install binaries into your user site packages, which may cause conflicts. Using pipx or your OS package manager is safer and preferred.
+If you use `pip` directly, HTTPie will install binaries into your user site packages, which may cause conflicts. Using `pipx` or your OS package manager is safer and preferred.
 :::
 Select your operating system below to see the specific commands.
 
