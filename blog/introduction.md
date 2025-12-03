@@ -1,8 +1,7 @@
----
 slug: introduction
-title: From Code to Clarity: My Journey in Technical Writing
-excerpt: How a passion for untangling complex systems evolved into a career of crafting clear, user-focused documentation.
-date: '2024-11-18'
+title: Welcome to conCatenateAbdul's Tech Hub
+authors: [concatenateabdul]
+tags: [introduction, bio, tech]
 ---
 
 I didn't start my career intending to become a technical writer. It started with frustration. As a developer, I'd spend hours deciphering vague API references or reassembling fractured user guides. I realized that the true power of technology isn't just in how it's built, but in how it's *understood*. That moment of clarity redirected my path from writing code to writing the instructions that make code accessible. My mission is simple: to transform complexity into clarity and build the bridge between powerful technology and its users.
