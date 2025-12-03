@@ -77,3 +77,12 @@ fi
 **Explanation**
 *   `--check-status`: Transforms HTTP errors into System errors.
 *   `-b` / `--body`: Outputs only the JSON payload, making it easier for tools like `grep` or `jq` to parse.
+
+
+## See also
+
+- [HTTPie scripting examples (official)](https://httpie.io/docs#examples) — practical scripts and automation tips.
+- [CI secrets and best practices — GitHub Actions](https://docs.github.com/en/actions/security-guides/encrypted-secrets) — secure secret injection for workflows.
+- [Robust JSON checks with jq](https://stedolan.github.io/jq/manual/) — prefer `jq` over `grep` for JSON assertions.
+- [Designing API tests — Martin Fowler (patterns)](https://martinfowler.com/articles/microservice-testing/) — higher-level testing strategies.
+
