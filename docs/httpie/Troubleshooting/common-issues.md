@@ -105,3 +105,10 @@ http GET localhost:8000
 
   </TabItem>
 </Tabs>
+
+
+## See also
+
+- [HTTPie troubleshooting (official)](https://httpie.io/docs#troubleshooting) — official troubleshooting notes and FAQ.
+- [Understanding TLS/SSL errors](https://letsencrypt.org/docs/common-issues/) — certificate and handshake troubleshooting pointers.
+- [How to file a useful bug report](https://www.freecodecamp.org/news/how-to-write-a-good-bug-report/) — what to include: command, flags, `--verbose` output, OS.
