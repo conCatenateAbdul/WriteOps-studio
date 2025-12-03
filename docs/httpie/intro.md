@@ -36,5 +36,4 @@ Let's make APIs fun again! 🚀
 
 - [HTTPie official docs — Overview](https://httpie.io/docs) — deeper reference and examples for advanced CLI usage.
 - [HTTPie plugins](https://httpie.io/docs/plugins) — extend HTTPie with custom auth and output handlers.
-- [12-Factor App: Config](https://12factor.net/config) — best practices for storing secrets and environment configuration.
 - [curl vs HTTPie: a short comparison](https://curl.se/docs/faq.html#What_is_curl) — understand trade-offs when choosing a CLI client.
