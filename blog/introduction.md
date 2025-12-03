@@ -1,6 +1,5 @@
 ---
 title: From Code to Clarity: My Journey in Technical Writing
-excerpt: I translate the silent language of technology into stories users not only understand but enjoy. This is my journey from solving puzzles to crafting clarity.
 authors: [concatenateabdul]
 ---
 
