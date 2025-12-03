@@ -138,3 +138,10 @@ If your terminal prints `command not found`:
 Now that you're set up, let's send your first request!
 
 [👉 Your First Request](./first-request)
+
+
+## See also
+
+- [Managing PATH on macOS, Linux, and Windows](https://opensource.com/article/19/5/add-directory-path-linux-macos-windows) — common PATH issues after installs.
+- [Using package managers securely](https://docs.microsoft.com/windows/package-manager/winget/) — guidance for Winget/Choco users (Windows).
+
