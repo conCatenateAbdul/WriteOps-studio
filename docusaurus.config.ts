@@ -124,11 +124,11 @@ const config: Config = {
           items: [
             {
               label: 'LinkedIn',
-              href: 'https://linkedin.com/in/concatenateabdul',
+              href: 'https://linkedin.com/in/abdulmalik-uthman/',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/concatenateabdul',
+              href: 'https://twitter.com/WriteOps_Studio',
             },
           ],
         },
