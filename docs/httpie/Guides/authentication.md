@@ -91,3 +91,10 @@ Follow these rules whenever you work with API keys, tokens, or passwords in exam
 2. **Do not put secrets in URLs or query strings.** URLs are often logged or shared.
 3. **Avoid inline passwords on the command line.** Use secure prompts or environment variables.
 4. **Store secrets with least privilege and rotate them regularly.**
+
+
+## See also
+
+- [OAuth 2.0 overview (oauth.net)](https://oauth.net/2/) — conceptual guide to OAuth flows used by many APIs.
+- [HTTP Authorization header — MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization) — header formats and security notes.
+- [Secrets management (OWASP cheatsheet)](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html) — secure storage and rotation practices.
