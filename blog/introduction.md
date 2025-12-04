@@ -4,8 +4,7 @@ title: Welcome to WriteOps-Studio
 authors: [concatenateabdul]
 ---
 
-import Callout from '@site/src/components/Callout';
-import ClassyText from '@site/src/components/ClassyText';
+import { Callout, ClassyText } from '@site/src/components';
 
 <ClassyText>
 
