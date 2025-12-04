@@ -11,7 +11,7 @@ import { Callout, ClassyText } from '@site/src/components';
 ## From Fixing Keyboards to Framing Knowledge: My Journey as a Technical Storyteller
 
 It started with a frantic call from the finance department. "My screen is broken!" The problem? A misplaced Excel window. That moment—translating panic into a simple solution—was my first real lesson in _**technical communication**_. For years in IT Support, I was the human API between complex systems and the people who needed to use them. I didn't just fix issues; I decrypted them, building bridges of understanding for non-technical staff, executives, and everyone in between.
-
+</ClassyText>
 <!-- truncate -->
 
 But the plot thickened when I ventured into _**software engineering**_. Here, I discovered a haunting irony: genius engineers building breathtaking digital cathedrals—APIs, frameworks, CLIs—only to leave the front door locked, the instructions scribbled in a forgotten language. I was personally stranded, unable to leverage powerful tools that could have accelerated my work, all because of cryptic or non-existent documentation. I realized the greatest innovation is useless if no one can understand how to wield it. The market wasn't lacking brilliant builders; it was lacking _**clear translators**_.
@@ -56,7 +56,6 @@ My methodology is built on a stack designed for precision and impact:
   **The Bottom Line:** I am the missing link between your brilliant technology and its successful adoption. I ensure that the time your team saves on building isn't lost on explaining. Let's build documentation that doesn't just inform, but empowers and accelerates.
 </Callout>
 
-</ClassyText>
 
 **Let's connect and discuss how we can give your projects the clear voice they deserve.** [Your CTA Link Here]
 
