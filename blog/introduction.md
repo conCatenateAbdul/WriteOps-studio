@@ -2,7 +2,6 @@
 slug: introduction
 title: Welcome to WriteOps-Studio
 authors: [concatenateabdul]
-tags: [introduction, bio, tech]
 ---
 
 import { Callout } from '@site/src/components';
