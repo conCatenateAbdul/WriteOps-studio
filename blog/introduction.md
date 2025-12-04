@@ -1,6 +1,8 @@
 ---
-title: From Code to Clarity: My Journey in Technical Writing
+slug: introduction
+title: Welcome to WriteOps-Studio
 authors: [concatenateabdul]
+tags: [introduction, bio, tech]
 ---
 
 The most elegant code is useless if it leaves its audience in the dark. I learned this not in a lecture hall, but in a moment of shared, silent frustration—watching a brilliant engineer struggle to explain his own creation. That was the pivot. My career is built on a simple, powerful belief: **documentation is the bridge between genius and its impact.** I don't just write instructions; I architect understanding.
