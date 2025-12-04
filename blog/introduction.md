@@ -5,7 +5,7 @@ authors: [concatenateabdul]
 ---
 
 import { Callout } from '@site/src/components';
-
+<div className="classy-text">
 ## From Fixing Keyboards to Framing Knowledge: My Journey as a Technical Storyteller
 
 It started with a frantic call from the finance department. "My screen is broken!" The problem? A misplaced Excel window. That moment—translating panic into a simple solution—was my first real lesson in _**technical communication**_. For years in IT Support, I was the human API between complex systems and the people who needed to use them. I didn't just fix issues; I decrypted them, building bridges of understanding for non-technical staff, executives, and everyone in between.
@@ -55,3 +55,5 @@ My methodology is built on a stack designed for precision and impact:
 </Callout>
 
 **Let's connect and discuss how we can give your projects the clear voice they deserve.** [Your CTA Link Here]
+
+</div>
