@@ -56,6 +56,8 @@ My methodology is built on a stack designed for precision and impact:
   **The Bottom Line:** I am the missing link between your brilliant technology and its successful adoption. I ensure that the time your team saves on building isn't lost on explaining. Let's build documentation that doesn't just inform, but empowers and accelerates.
 </Callout>
 
+</ClassyText>
+
 **Let's connect and discuss how we can give your projects the clear voice they deserve.** [Your CTA Link Here]
 
-</ClassyText>
+
