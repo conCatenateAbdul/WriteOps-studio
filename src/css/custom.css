@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -28,4 +30,10 @@
   --ifm-color-primary-lightest: #e6e3ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ifm-background-color: #1a1b26; /* Deep dark background */
+}
+
+.classy-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1em;
+  line-height: 1.8;
 }
