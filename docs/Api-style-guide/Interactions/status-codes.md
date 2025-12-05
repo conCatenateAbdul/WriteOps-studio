@@ -24,3 +24,21 @@ Stop returning `200 OK` for errors. The HTTP status code tells the client *how* 
 ## Server Errors (5xx)
 * **500 Internal Server Error:** Something blew up on our end.
 * **503 Service Unavailable:** We are down for maintenance.
+
+### Example (422 validation)
+```http
+HTTP/1.1 422 Unprocessable Entity
+Content-Type: application/problem+json
+
+{
+  "type": "https://example.com/probs/invalid-request",
+  "title": "Validation failed",
+  "status": 422,
+  "detail": "One or more fields failed validation.",
+  "errors": [
+    { "field": "email", "message": "invalid email address" }
+  ]
+}
+yaml
+Copy code
+```
