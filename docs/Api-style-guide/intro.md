@@ -8,6 +8,14 @@ description: The philosophy behind our API design and how to read this guide.
 # The API Style Guide Cookbook
 
 Welcome to the **API Style Guide Cookbook**. We treat our API as a product, not just a technical byproduct. This guide serves as the single source of truth for designing consistent, predictable, and human-friendly RESTful APIs.
+## How to use this guide
+
+This guide helps API designers and writers make consistent, predictable APIs.  
+Use the three sections as you design or review an API:
+
+- **Foundations** — naming, data types, and basic constraints.  
+- **Interactions** — request methods, response codes, and semantics.  
+- **Recipes** — implementation patterns like pagination, error handling, and versioning.
 
 ## Why Consistency Matters
 When developers consume our API, they shouldn't have to guess. If they learn how to filter a list of `users`, they should intuitively know how to filter a list of `products`. Consistency reduces cognitive load and speeds up integration.
