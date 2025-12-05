@@ -39,6 +39,4 @@ Content-Type: application/problem+json
     { "field": "email", "message": "invalid email address" }
   ]
 }
-yaml
-Copy code
 ```
