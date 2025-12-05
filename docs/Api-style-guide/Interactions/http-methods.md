@@ -48,7 +48,8 @@ PATCH /users/123
 
 ## Idempotency
 **Idempotency** means that making the same request multiple times produces the same result.
-<ul>
-  <li>GET is idempotent: You can refresh the page 100 times, and the data remains the same.</li>
-  <li>POST is NOT idempotent: If you refresh a form submission page, you might buy the same item twice.</li>
-</ul>
+
+  - GET is idempotent: You can refresh the page 100 times, and the data remains the same.
+  - POST is NOT idempotent: If you refresh a form submission page, you might buy the same item twice.
+  - PUT — idempotent; replaces the resource. Provide full resource representation.  
+  - PATCH — non-idempotent by default; use for partial updates. Document the patch format (JSON Patch or merge patch).  
