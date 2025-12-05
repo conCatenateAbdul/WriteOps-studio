@@ -29,11 +29,12 @@
   --ifm-color-primary-lighter: #c8c2ff;
   --ifm-color-primary-lightest: #e6e3ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-background-color: #1a1b26; /* Deep dark background */
+  --ifm-background-color: #1a1b26;
+  /* Deep dark background */
 }
 
 .classy-text {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif !important;
   font-size: 1.1em;
   line-height: 1.8;
 }
