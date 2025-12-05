@@ -11,6 +11,18 @@ import TabItem from '@theme/TabItem';
 
 Great APIs read like a sentence. The structure of the URL tells the developer exactly what resource they are accessing.
 
+- Use **plural** nouns for resource collections: `/users`, `/orders`.  
+- Use **kebab-case** for path segments: `/order-items` (avoid underscores).  
+- Avoid verbs in resource names; use HTTP methods for actions (for exceptional actions, use subresources or action endpoints prefixed with verbs only when necessary).  
+- Prefer IDs in the path: `/users/{userId}/orders`.
+
+### Naming checklist
+- [ ] Is the resource name a noun (not a verb)?  
+- [ ] Is it plural for collections?  
+- [ ] Are path segments kebab-cased and URL-safe?  
+- [ ] Does the change keep backward compatibility or include a versioning plan?
+
+
 ### 1. Casing Strategy
 We use specific casing styles to distinguish between URLs, JSON, and Headers.
 
