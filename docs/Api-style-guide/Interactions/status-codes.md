@@ -19,6 +19,7 @@ Stop returning `200 OK` for errors. The HTTP status code tells the client *how* 
 * **401 Unauthorized:** The client is not logged in (missing token).
 * **403 Forbidden:** The client is logged in but lacks permission to view this resource.
 * **404 Not Found:** The resource does not exist.
+* **422 Unprocessable Entity** — semantic/validation errors (preferred for validation).
 * **429 Too Many Requests:** You hit the rate limit.
 
 ## Server Errors (5xx)
