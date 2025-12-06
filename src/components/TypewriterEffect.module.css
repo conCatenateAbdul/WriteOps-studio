@@ -1,11 +1,13 @@
 .typewriterContainer {
   font-weight: bold;
-  font-size: 1.33rem; /* Adjust as needed */
+  font-size: 1.33rem;
+  /* Adjust as needed */
   display: inline-block;
 }
 
 .gradientText {
-  background: linear-gradient(90deg, #141414,  #1a1b26); /* Example cool colors */
+  background: linear-gradient(90deg, #141414, #1a1b26);
+  /* Example cool colors */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -15,14 +17,21 @@
 .cursor {
   display: inline-block;
   margin-left: 2px;
+  color: var(--ifm-color-primary);
+  /* Use theme primary color or specific color */
+}
+
+.blinking {
   animation: blink 1s step-end infinite;
-  color: var(--ifm-color-primary); /* Use theme primary color or specific color */
 }
 
 @keyframes blink {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 1;
   }
+
   50% {
     opacity: 0;
   }
