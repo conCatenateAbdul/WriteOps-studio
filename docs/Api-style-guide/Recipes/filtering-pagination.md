@@ -56,6 +56,7 @@ Use direct query parameters matching the field names.
 
 **Offset pagination** (`?page=2&limit=20`) is simple and useful for small datasets and administrative UIs.  
 **Cursor pagination** (recommended for large or frequently changing datasets) uses an opaque cursor token to fetch the next page and is more performant at scale.
-### Cursor example
-GET `/messages?limit=50&cursor=eyJpZCI6IjEyMzQ1Iiwic2VxIjoxMDAwfQ`
+_**Cursor example**_
+- GET `/messages?limit=50&cursor=eyJpZCI6IjEyMzQ1Iiwic2VxIjoxMDAwfQ`
+
 **Guideline:** Always require a deterministic sort for paginated resources (for example: `ORDER BY created_at DESC, id DESC`).
