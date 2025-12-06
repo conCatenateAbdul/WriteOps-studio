@@ -19,9 +19,8 @@ It started with a frantic call from the finance department. "My screen is broken
 
 <ClassyText>
 
-But the plot thickened when I ventured into _**software engineering**_. Here, I discovered a haunting irony: genius engineers building breathtaking digital cathedrals—APIs, frameworks, CLIs—only to leave the front door locked, the instructions scribbled in a forgotten language. I was personally stranded, unable to leverage powerful tools that could have accelerated my work, all because of cryptic or non-existent documentation. I realized the greatest innovation is useless if no one can understand how to wield it. The market wasn't lacking brilliant builders; it was lacking _**clear translators**_.
+But the plot thickened when I ventured into _**software engineering**_. Here, I discovered a haunting irony: genius engineers building breathtaking digital cathedrals—APIs, frameworks, CLIs—only to leave the front door locked, the instructions scribbled in an ancient hieroglyphs. I was personally stranded, unable to leverage powerful tools that could have accelerated my work, all because of cryptic or non-existent documentation. I realized the greatest innovation is useless if no one can understand how to wield it. The market wasn't lacking brilliant builders; it was lacking _**clear translators**_.
 
-This quest for clarity led me to the high-stakes world of _**cybersecurity**_. Armed with industry certifications, I saw the same story play out with higher consequences. Critical security tools and protocols were shrouded in impenetrable jargon, leaving teams vulnerable not to flaws in code, but to gaps in comprehension. The need wasn't for more technical depth alone—it was for someone to turn that depth into actionable, intelligible guidance.
 
 That's when my path crystallized. I pivoted my entire career to _**technical writing**_. I combine the empathy of a support technician, the architectural understanding of a developer, and the risk-aware mindset of a security professional. I don't just document; I architect understanding. I transform the dense, the complex, and the technical into clear, user-focused narratives that drive adoption and empower teams.
 
@@ -41,11 +40,6 @@ Here’s how I apply this cross-disciplinary lens to deliver tangible value:
 *2021 – 2022*  
 - **Product Launch Documentation:** Led the end-to-end content creation for a new cloud-native financial security tool. Delivered a user manual for clients, a detailed admin guide for IT teams, and a series of public-facing technical blog posts that supported a successful product launch with a 95% positive feedback rate on documentation clarity.
 - **Complex Concept Simplification:** Deconstructed advanced topics like "Anomaly Detection Algorithms" and "Regulatory Compliance Mapping" into visually-aided, scenario-based guides for a non-technical financial analyst audience.
-
-**Documentation Specialist | TechFlow Solutions**  
-*2020 – 2021*  
-- **API Documentation Overhaul:** Inherited and completely restructured the legacy documentation for a core enterprise API. Introduated a coherent information architecture, consistent code samples, and a streamlined "First Call in 5 Minutes" tutorial, which decreased average onboarding time from two weeks to three days.
-- **CLI Tool Guide:** Created the definitive guide and `--help` overhaul for an internal CLI tool used by 200+ engineers, turning it from a source of frustration into a praised productivity booster.
 
 ---
 
