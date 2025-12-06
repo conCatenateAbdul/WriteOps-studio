@@ -6,6 +6,7 @@ tags: [cybersecurity, security, trends]
 ---
 import ClassyText from '@site/src/components/ClassyText';
 
+<ClassyText>
 ## Navigating the 2025 Cybersecurity Landscape: Where Human Genius Meets Digital Shadows
 
 The battlefield has evolved. Gone are the days when a strong password and a firewall were enough. In 2025, cybersecurity isn't just an IT concern—it's the bedrock of business survival and personal safety. We're witnessing a paradigm shift where artificial intelligence, geopolitical tensions, and human psychology converge in the digital realm. Let's decode the critical trends that will define the next chapter of digital defense.
@@ -46,3 +47,5 @@ This means:
 The theme for 2025 is **Integrated Resilience**. It's not about buying more silver-bullet tools. It's about weaving security, privacy, and operational continuity into the very fabric of your organization. The winners will be those who combine cutting-edge technology with profound human insight, creating systems that are not just hard to breach, but intelligent enough to adapt, respond, and recover.
 
 **Is your organization building walls or cultivating resilience? The next move is critical.** [Let's strategize your path forward](your-link-here).
+
+</ClassyText>
