@@ -4,7 +4,7 @@ title: Essential Software Development Best Practices
 authors: [concatenateabdul]
 tags: [software-development, coding, best-practices]
 ---
-import ClassyText from '@site/src/components/ClassyText;
+import ClassyText from '@site/src/components/ClassyText';
 
 <ClassyText>
 ## Beyond Clean Code: The 2025 Development Mindset for Building Software That Actually Lasts
