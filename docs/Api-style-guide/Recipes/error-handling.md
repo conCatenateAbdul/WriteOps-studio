@@ -53,3 +53,24 @@ When a form submission fails, list all failures, not just the first one. Use an 
   }
 }
 ```
+## 5. Use Problem Details (RFC 7807)
+
+We recommend using the Problem Details format for machine-readable errors.
+
+```http
+HTTP/1.1 400 Bad Request
+Content-Type: application/problem+json
+
+{
+  "type": "https://example.com/probs/validation-error",
+  "title": "Validation failed",
+  "status": 400,
+  "detail": "One or more fields are invalid.",
+  "instance": "/orders/abc123",
+  "errors": [
+    { "field": "quantity", "code": "too_small", "message": "must be at least 1" }
+  ]
+}
+```
+**Required fields:** `type`, `title`, `status`
+**Recommended fields:** `detail`, `instance`, `errors` (for field-level issues).
