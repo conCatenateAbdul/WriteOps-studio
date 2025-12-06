@@ -41,8 +41,8 @@
 
 /* Increase Navbar Logo Size */
 .navbar__logo {
-  height: 3rem;
+  height: 4rem;
   /* Made bigger as requested */
-  max-height: 3rem;
+  max-height: 4rem;
   width: auto;
 }
