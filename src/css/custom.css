@@ -38,3 +38,11 @@
   font-size: 1.1em;
   line-height: 1.8;
 }
+
+/* Increase Navbar Logo Size */
+.navbar__logo {
+  height: 3rem;
+  /* Made bigger as requested */
+  max-height: 3rem;
+  width: auto;
+}
