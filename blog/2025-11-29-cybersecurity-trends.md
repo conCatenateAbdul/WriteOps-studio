@@ -4,7 +4,7 @@ title: Emerging Cybersecurity Trends in 2025
 authors: [concatenateabdul]
 tags: [cybersecurity, security, trends]
 ---
-import ClassyTextfrom '@site/src/components/ClassyText';
+import ClassyText from '@site/src/components/ClassyText';
 
 ## Navigating the 2025 Cybersecurity Landscape: Where Human Genius Meets Digital Shadows
 
