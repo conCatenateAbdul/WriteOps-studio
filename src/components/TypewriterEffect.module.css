@@ -16,9 +16,13 @@
 
 .cursor {
   display: inline-block;
+  vertical-align: middle;
+  width: 2px;
+  height: 1.4em;
+  /* Match line-height roughly */
   margin-left: 2px;
-  color: var(--ifm-color-primary, #000);
-  /* Fallback to black if variable is missing */
+  background-color: var(--ifm-color-primary, #000);
+  /* Use background color for the block */
   opacity: 1;
 }
 
