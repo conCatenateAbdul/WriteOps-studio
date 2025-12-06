@@ -26,7 +26,7 @@ const TypewriterEffect: React.FC<TypewriterEffectProps> = ({ text }) => {
     return (
         <span className={styles.typewriterContainer}>
             <span className={styles.gradientText}>{displayedText}</span>
-            <span className={`${styles.cursor} ${!isTyping ? styles.blinking : ''}`}>|</span>
+            <span className={`${styles.cursor} ${!isTyping ? styles.blinking : ''}`}></span>
         </span>
     );
 };
