@@ -17,8 +17,9 @@
 .cursor {
   display: inline-block;
   margin-left: 2px;
-  color: var(--ifm-color-primary);
-  /* Use theme primary color or specific color */
+  color: var(--ifm-color-primary, #000);
+  /* Fallback to black if variable is missing */
+  opacity: 1;
 }
 
 .blinking {
