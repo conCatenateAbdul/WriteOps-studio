@@ -84,7 +84,7 @@ const config: Config = {
       title: 'WriteOps-Studio',
       logo: {
         alt: 'WriteOps-Studio Logo',
-        src: 'img/logo.png',
+        src: 'img/WOPS1.png',
       },
       items: [
         {
