@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'WriteOps-Studio',
   tagline: 'Technical Writer | IT Support Specialist | Cybersecurity Analyst',
-  favicon: 'img/faviconn.png', 
+  favicon: 'img/favicon.png', 
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
